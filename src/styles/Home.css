@@ -359,9 +359,11 @@ a {
 }
 
  .card {
-  width: 400px;
- height: 500px;
+ width: 33%;
+ max-width: 400px !important;
+min-width: 350px !important;
 
+height: 500px;
 }
 
 .img-container {
@@ -435,7 +437,7 @@ a {
   font-size: 15px;
   border-radius: 20px;
   margin-top: 10px;
-  width: 250px;
+  width: 70%;
   margin: auto;
   height: 60px; 
   color: black;
@@ -651,6 +653,25 @@ footer {
 
 
 
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .card {
+  max-width: 300px;
+    
+  }
+
+  .absolute-buttons-container button{
+    width: 150px;
+    height: 50px;
+    margin-right: 15px;
+    
+  
+  }
+
+
+  .absolute-buttons-container {
+    right: 0;
+  }
+}
 
 
 

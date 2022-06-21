@@ -20,7 +20,7 @@ const Home = () => {
   const [toggle, setToggle] = useState(true);
 
   return (
-    <div className="home">
+    <div className="main-container">
       <div className="landing-photo-interface">
         <img src={logo} alt="" />
         <div className="interface-img-container">
