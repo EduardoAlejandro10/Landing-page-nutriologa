@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 
+
 import {
   certifications,
   docAbout,
@@ -276,7 +277,7 @@ const Home = () => {
               <img src={blog5} alt="" />
             </div>
             <div className="description-card">
-              <h4>Food</h4>
+              <h4>Travels</h4>
               <span>
                 {" "}
                 <i className="fa-solid fa-calendar-days"></i> march 14
