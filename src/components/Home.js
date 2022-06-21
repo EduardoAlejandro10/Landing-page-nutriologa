@@ -11,6 +11,7 @@ import {
   blog5,
   facebook,
   instagram,
+  tiktok,
 } from "../assets/index";
 import { useState } from "react";
 
@@ -34,6 +35,7 @@ const Home = () => {
           <a
             href="https://api.whatsapp.com/message/LNRP3UDQDY5QC1?autoload=1&app_absent=0"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Contactame <i className="fa-solid fa-arrow-right"></i>
           </a>
@@ -42,7 +44,7 @@ const Home = () => {
       <div className="social-media-container">
         <a
           href="https://www.instagram.com/nutriologacherety/"
-          rel="nonereferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <i className="fa-brands fa-instagram-square"></i>
@@ -50,13 +52,14 @@ const Home = () => {
         <a
           href="https://www.facebook.com/Nutri%C3%B3loga-Cherety-529362917256111"
           target="_blank"
+          rel="noopener noreferrer"
         >
           {" "}
           <i className="fa-brands fa-facebook"></i>
         </a>
         <a
           href="https://www.tiktok.com/@nutriologacherety"
-          rel="nonreferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <i className="fa-brands fa-tiktok"></i>
@@ -69,7 +72,7 @@ const Home = () => {
       {toggle ? (
         <>
           <section className="about-location-container">
-            <div className="img-about-container">
+            <div id="about-me" className="img-about-container">
               <img src={docAbout} alt="" />
             </div>
             <div className="about-description">
@@ -219,7 +222,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="blog">
+      <section id="blog" className="blog">
         <div className="vector-container-blog">
           <span>
             <i className="fa-regular fa-window-minimize"></i>
@@ -243,6 +246,7 @@ const Home = () => {
             <a
               href="https://www.instagram.com/nutriologacherety/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Ver mas <i className="fa-brands fa-instagram"></i>
             </a>
@@ -262,6 +266,7 @@ const Home = () => {
             <a
               href="https://www.instagram.com/nutriologacherety/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Ver mas <i className="fa-brands fa-instagram"></i>
             </a>
@@ -280,12 +285,13 @@ const Home = () => {
             <a
               href="https://www.instagram.com/nutriologacherety/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Ver mas <i className="fa-brands fa-instagram"></i>{" "}
             </a>
           </div>
         </div>
-        <section className="social-media">
+        <section id="social" className="social-media">
           <div className="follow-container">
             <div className="vector-container-social">
               <i className="fa-regular fa-window-minimize"></i>
@@ -294,7 +300,7 @@ const Home = () => {
             <h2>Sigueme En Mis Redes</h2>
             <p>Mantente conectado conmigo, sigueme en mis redes sociales</p>
           </div>
-          <div className="social-media-icons-container">
+          <div  className="social-media-icons-container">
             <div className="social-box">
               <div className="pic-container">
                 <img className="face" src={facebook} alt="" />
@@ -308,6 +314,7 @@ const Home = () => {
                 <a
                   href="https://www.facebook.com/Nutri%C3%B3loga-Cherety-529362917256111"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
@@ -326,12 +333,37 @@ const Home = () => {
                 <a
                   href="https://www.instagram.com/nutriologacherety/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa-solid fa-plus"></i>
                 </a>
               </div>
             </div>
+            <div className="social-box">
+              <div className="pic-container">
+                <img className="insta" src={tiktok} alt="" />
+              </div>
+              <div className="followers-container">
+                <span className='amount'>+1k</span>
+                <span>Followers</span>
+              </div>
+
+              <div className="upcount-container">
+                <a
+                  href="https://www.instagram.com/nutriologacherety/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-solid fa-plus"></i>
+                </a>
+              </div>
+            </div>
+
+
           </div>
+
+
+          
         </section>
       </section>
       <footer></footer>
