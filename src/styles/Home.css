@@ -125,6 +125,7 @@ i:hover {
 
 
 
+
 .img-about-container img {
   width: 80%;
   height: 90%;
@@ -171,65 +172,18 @@ i:hover {
   
 }
 
-.certifications-container {
-  display: flex;
-   flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    
-}
 
-
-.certification-img-container {
+.img-carousel-container {
   width: 400px;
-  height: 500px;
-  box-shadow: #dfb3df 0px 0px 5px 0px;
- 
-}
-
-.certifications{
-  display: flex;
-  justify-content: center;
-  gap: 200px;
-  flex-wrap: wrap;
-   width: 100%;
+  height: 400px;
 
 }
 
-.description-certifications p{
-  width: 250px;
-}
-
-.description-certifications {
- margin-right: 10px;
- 
-}
-.certification-img-container img {
-  width: 100%;
-  height: 100%;
-  
-  border: 10px inset #dfb3df;
-  
-}
 
 
 
 
-.description-certifications span{
-  
-  color: #dfb3df;
-  font-size: 20px;
-}
 
-
-
-.description-certifications {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-
-}
 
 .services {
   margin-top: 150px;
@@ -358,10 +312,24 @@ a {
 
 }
 
- .card {
- width: 33%;
- max-width: 400px !important;
-min-width: 350px !important;
+
+
+.cards-container {
+  width: 100%;
+ justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px auto;
+  gap: 50px;
+  flex-wrap: wrap;
+
+}
+
+ .card { 
+  max-width: 400px !important;
+  min-width: 350px  !important;
+  width: 25%;
+
 
 height: 500px;
 }
@@ -385,17 +353,6 @@ height: 500px;
 
 
 
-
-.cards-container {
-  width: 100%;
- justify-content: center;
-  align-items: center;
-  display: flex;
-  margin: 50px auto;
-  gap: 50px;
-  flex-wrap: wrap;
-
-}
 
 .description-card h4 {
   margin-top: 10px;
@@ -665,6 +622,10 @@ footer {
     margin-right: 15px;
     
   
+  }
+
+  .certifications {
+    gap: 10px;
   }
 
 
