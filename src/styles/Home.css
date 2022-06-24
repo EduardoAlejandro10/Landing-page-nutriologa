@@ -1,10 +1,26 @@
 .landing-photo-interface {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
+  justify-content: space-between;
   background-color: #dfb3dfb3;
   justify-content: center;
   align-items: center;
+  
+}
 
+.img-landing-container {
+ width: 250px;
+ 
+}
+
+
+.img-landing-container img{
+  width: 100%;
+}
+
+.landing-photo-interface a {
+  color: white;
 }
 
 .landing-description {
@@ -12,31 +28,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 3%;
+  
+  width: 500px;
+  
   color: rgb(255, 255, 255);
-
 
 }
 
 .interface-img-container {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+
 }
 
 .interface-img-container img {
   width: 100%;
-  height: 100%;
+  
 }
 
 
 
 .landing-description h1 {
-  font-size: 70px;
+  font-size: 60px;
+  
 }
 
 .landing-description p {
+  
   font-size: 20px;
-  margin-right: 180px;
+   margin-right: 130px; 
 }
 
 .landing-description i {
@@ -53,7 +72,7 @@ i:hover {
 }
 
 .landing-description a {
-  margin-right: 180px;
+   margin-right: 180px; 
   border: 1px solid white;
   border-radius: 20px;
   width: 200px;
@@ -66,10 +85,10 @@ i:hover {
   display: flex;
   background-color: #f3f3fa;
   width: 100%;
-  flex-wrap: wrap;
+ 
   justify-content: center;
   align-items: center;
-  gap: 200px;
+
   height: 300px;
 }
 
@@ -84,9 +103,7 @@ i:hover {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  position: absolute;
-  margin-top: -30px;
-  margin-left: 38%;
+  transform: translateY(-50%);
 }
 
 .absolute-buttons-container button {
@@ -111,7 +128,6 @@ i:hover {
   gap: 150px;
   margin-top: 100px;
   flex-wrap: wrap;
-
 }
 
 .img-about-container {
@@ -141,7 +157,14 @@ i:hover {
 }
 
 .about-description p {
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
+  
+}
+
+.checked-abilities-card p{
+
+  text-align: center;
 }
 
 .about-description span {
@@ -174,7 +197,9 @@ i:hover {
 
 
 .img-carousel-container {
-  width: 400px;
+  width: 80%;
+  max-width: 400px;
+  min-width: 250px;
   height: 400px;
 
 }
@@ -190,6 +215,7 @@ i:hover {
   text-align: center;
   background-color: #f3f3fa;
   padding: 30px;
+  width: 100%;
 
 }
 .services h2 {
@@ -211,7 +237,7 @@ i:hover {
  
 }
 .boxes-container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   gap: 50px;
   margin-top: 20px;
@@ -222,6 +248,8 @@ i:hover {
 .title h2{
  margin-top: 50px;
 }
+
+
 
 .vector-container-services {
   display: flex;
@@ -326,10 +354,10 @@ a {
 }
 
  .card { 
-  max-width: 400px !important;
-  min-width: 350px  !important;
+  
   width: 25%;
-
+  min-width: 280px !important;
+  max-width: 330px !important;
 
 height: 500px;
 }
@@ -438,6 +466,7 @@ height: 500px;
   justify-content: center;
   align-items: center;
   gap: 250px;
+  
   flex-wrap: wrap;
 }
 
@@ -576,6 +605,7 @@ height: 500px;
   padding: 30px;
   background-color: #f3f3fa;
   
+  
 }
 
 
@@ -587,81 +617,256 @@ footer {
 
 
 
-@media screen and (min-width: 1px) {
-  * {
-    max-width: none !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-  }
 
   a {
     text-decoration: none;
   }
 
-  .landing-photo-interface a {
-    color: white;
-  }
+  
 
   .navbar a {
     margin: 10px;
   }
 
-}
-
-
-
-@media screen and (min-width: 300px) and (max-width: 500px) {
-  .card {
-  max-width: 300px;
-    
-  }
-
-  .absolute-buttons-container button{
-    width: 150px;
-    height: 50px;
-    margin-right: 15px;
-    
-  
-  }
-
-  .certifications {
-    gap: 10px;
-  }
-
-
-  .absolute-buttons-container {
-    right: 0;
-  }
-}
-
-
-
-
 
 
 
 @media screen and (max-width: 768px) {
-  .social-media-container {
-    gap: 50px;
+  .social-media {
+    gap: 10px;
   }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .social-media-container {
+     gap: 80px;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .social-media-container {
+     gap: 200px;
+  }
+  
+}
+
+
+@media screen and (min-width: 1024px)  {
+  .social-media-container {
+     gap: 250px;
+  }
+  
+}
+
+
+
+@media screen and  (max-width: 1170px) {
+  .landing-photo-interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ 
+  
+  .landing-description {
+    width: 360px;
+    margin-left: 50px;
+  }
+
+
+  .landing-description h1 {
+    font-size: 50px;
+    margin-right: 50px;
+  }
+
+
+  .landing-photo-interface img {
+    width: 100px;
+    height: 100%;
+  }
+
+
+  .interface-img-container {
+
+    width: 350px;
+  }
+
+  .interface-img-container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+.img-landing-container img {
+  width: 100%;
+  height: 100%;
+}
+
+}
+
+@media screen and  (max-width: 1009px) {
+  .landing-photo-interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ 
+  
+  .landing-description {
+    width: 360px;
+    margin-left: 50px;
+  }
+
+
+
+.interface-img-container {
+  width: 250px;
+}
+
+.interface-img-container img {
+  width: 100%;
+  
+}
+  
+}
+
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  
+
+
+.img-landing-container {
+  display: none;
+}
+
+
+.interface-img-container {
+  position: relative;
+}
+
+.landing-description {
+  position: absolute;
+  margin-right: 150px;
+  
+}
+
+.interface-img-container {
+  margin-left: 150px;
+}
+
+.landing-description h1 {
+  font-size: 30px;
+  
+}
+
+
+.landing-description p {
+  font-size: 15px;
+  margin-left: 60px;
+}
+
+.landing-description a {
+  width: 150px;
+  margin-left: 70px;
+}
+
+
+}
+
+
+@media screen and  (min-width: 768px) and (max-width: 910px) {
+  
+  .landing-description h1{
+    font-size: 35px;
+    
+  }
+
+  .landing-description p {
+    font-size: 16px;
+    margin-left: 50px;
+    
+  }
+
+  .landing-description a {
+    width: 150px;
+    margin-left: 80px;
+  }
+
+  .landing-description {
+    width: 300px;
+  
+  }
+
+  
+}
+
+
+@media screen and  (  min-width: 768px) and (max-width: 850px) {
+  
+ .landing-description h1  {
+  font-size: 25px;
+  width: 150px;
+
+ }
+
+ .landing-description {
+  width: 200px;
+ }
+
+ .landing-description p {
+  font-size: 15px;
+  width: 100px;
+ }
+
+  
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+  .boxes-container {
+    width: 70%;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px) {
+  .absolute-buttons-container button{
+    width: 150px;
+    
+  }
+  
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+ 
 
   .about-location-container {
     gap: 20px;
     
   }
+
   .about-description {
     align-items: center;
   }
 
-  .about-p  {
-    margin-left: 50px;
-   
-  }
-
-
-
-
- 
 
   .about-description .vector-container {
     margin-right: 130px;
@@ -670,12 +875,6 @@ footer {
   .checked-abilities-card {
   justify-content: center;
   }
-
-
-
-
-
-  
 
 
 }
