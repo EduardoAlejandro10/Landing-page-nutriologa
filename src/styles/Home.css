@@ -64,12 +64,18 @@
   color: white;
 }
 
-.landing-description a:hover,
-i:hover {
+.landing-description a:hover {
   background-color: white;
   color: black ;
-  transition: 0.5s;
+  transition: 0.2s;
 }
+
+.landing-description:hover i {
+  color: black;
+  transition: 0.2s;
+}
+
+
 
 .landing-description a {
    margin-right: 180px; 
@@ -117,7 +123,7 @@ i:hover {
 .absolute-buttons-container button:hover {
   background-color: #dfb3dfb3;
   color: white;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 
@@ -283,51 +289,29 @@ i:hover {
   
 }
 
-.heart i {
-  color: rgb(203, 41, 41);
-}
-
-
-.carrot i {
-   
-  color: orange;
-}
-
-
-
-.weight i {
-  color: gray;
-}
-
-.whats i {
-  color: green;
+.box i {
+  color: #dfb3df;
 }
 
 .box:hover  {
   background-color: #dfb3df;
   color: white;
-  transition: 0.5s;
+  transition: 0.2s;
  
 }
 
-.box i:hover {
-  background-color: #dfb3df;
- 
+.box:hover i {
+  color: white;
+  transition: 0.2s;
 }
 
 
 
 .box i {
-  width: 10%;
+  
   margin: 18px auto;
 }
-.excercise i{
-  color: black
-}
 
-.food i{
-  color: rgb(177, 170, 170);
-}
 
 
 a {
@@ -361,6 +345,9 @@ a {
 
 height: 500px;
 }
+
+
+
 
 .img-container {
   width: 100%;
@@ -437,11 +424,16 @@ height: 500px;
 .card a:hover{
   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) ;
   color: white;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 
 
+
+.hover-container:hover .fa-instagram {
+  color: white;
+  transition: 0.2s;
+}
 
 
 .card a {
@@ -465,7 +457,7 @@ height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 250px;
+ justify-content: space-evenly;
   
   flex-wrap: wrap;
 }
@@ -495,7 +487,7 @@ height: 500px;
 }
 
 
-.vector-container-social span,i{
+.vector-container-social span, .fa-calendar-days{
   color: #dfb3df;
 }
 
@@ -611,10 +603,35 @@ height: 500px;
 
 
 footer {
-  height: 50px;
   background-color:  #dfb3df ;
+  height: 300px;
 }
 
+
+
+.footer-contact-container {
+ 
+  margin: auto;
+  border-bottom: 2px solid white;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+
+.footer-contact-container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.copy {
+font-size: 14px;
+  text-align: center;
+  color: white;
+}
 
 
 

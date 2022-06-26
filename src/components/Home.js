@@ -215,7 +215,7 @@ const Home = () => {
                   </div>
                   <div className="carousel-item">
                     <img
-                      class="d-block w-100"
+                      className="d-block w-100"
                       src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273406598_1880750322117357_8820616124001476361_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGmol8y5pt1JTWL5qDfOTMSJGJ0FoQ3ii4kYnQWhDeKLt-KpCUx455_gaDxyozKjCHEouslrpKhhosJ7F9BO8NF&_nc_ohc=8w4vMOGrEWIAX8FtahN&_nc_ht=scontent.fmty1-1.fna&oh=00_AT-O1x5G6mn0YRFfnhEtrmVHZZMLLTqx-08Gsa-FkNo0OA&oe=62B80FBD"
                       alt="First slide"
                     />
@@ -336,7 +336,7 @@ const Home = () => {
           </div>
 
           <div className="box excercise">
-            <i className="fa-solid fa-person-walking"></i>
+            <i  className="fa-solid fa-person-walking person"></i>
             <h3>Orientacion en entrenamiento</h3>
             <p>
               ejercicios recomendados a tus posibilidades y orientacion a como
@@ -384,7 +384,7 @@ const Home = () => {
                 <i className="fa-solid fa-calendar-days"></i> march 16
               </span>
             </div>
-            <a
+            <a className="hover-container"
               href="https://www.instagram.com/nutriologacherety/"
               target="_blank"
               rel="noopener noreferrer"
@@ -405,6 +405,7 @@ const Home = () => {
               </span>
             </div>
             <a
+            className="hover-container"
               href="https://www.instagram.com/nutriologacherety/"
               target="_blank"
               rel="noopener noreferrer"
@@ -424,6 +425,7 @@ const Home = () => {
               </span>
             </div>
             <a
+            className="hover-container"
               href="https://www.instagram.com/nutriologacherety/"
               target="_blank"
               rel="noopener noreferrer"
@@ -502,7 +504,19 @@ const Home = () => {
           </div>
         </section>
       </section>
-      <footer></footer>
+      <footer>
+            <div className="footer-contact-container">
+                <span>Contact Me</span>
+                <span></span>
+                <span><i className="fa-solid fa-location-dot"></i> Hidalgo 514 A Poniente, Centro, 67480 </span>
+                <span><i className="fa-solid fa-envelope"></i> brendacheretynutricion@gmail.com</span>
+                <span><i className="fa-solid fa-phone-flip"></i> 828-105-6153</span>
+            </div>
+            <div className="copy">
+              <p><i className="fa-solid fa-copyright"></i> Nutriologa Cherety 2022</p>
+            </div>
+            
+      </footer>
     </div>
   );
 };
