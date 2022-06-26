@@ -506,7 +506,7 @@ const Home = () => {
 
               <div className="upcount-container">
                 <a
-                  href="https://www.instagram.com/nutriologacherety/"
+                  href="https://www.tiktok.com/@nutriologacherety"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
