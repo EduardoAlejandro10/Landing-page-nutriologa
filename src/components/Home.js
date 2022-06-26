@@ -11,6 +11,19 @@ import {
   facebook,
   instagram,
   tiktok,
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
+  gallery11,
+  gallery12,
+  gallery13,
 } from "../assets/index";
 import { useState } from "react";
 
@@ -174,91 +187,91 @@ const Home = () => {
                   <div className="carousel-item active">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/274059514_1886542664871456_2299413864784605198_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHF--KVLRJ2e5hSZNbK8vXu6dTZCe3_KVPp1NkJ7f8pU8rJ-4eY7wa8Pd0ykCnE2APnTbUPeAhu6SFTx01_ZC6N&_nc_ohc=D0J1P4Ok9JMAX-H8yht&tn=StPZrkkq0Ovc5hwk&_nc_ht=scontent.fmty1-1.fna&oh=00_AT-xOZpfPfEkX1VRKOzOTSsR-fha4UEF4XpJZBsKXp696Q&oe=62B71693"
+                      src={gallery1}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/274069489_1886542674871455_6937756377942505575_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH1YVVXgYQddBNASFrv3pcXxQeN4K51frTFB43grnV-tM1n5u_GhZjBwJ4HLI7FZR46c27o2cHF6hvV_d0Ig_7O&_nc_ohc=_dLPd1iDGI4AX9Wf5Jb&_nc_ht=scontent.fmty1-1.fna&oh=00_AT9KMzTeQRtjujOUH1TKrhP-lPbf12APblviq3lBrUSUOw&oe=62B66F77"
+                      src={gallery2}
                       alt="Second slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273499099_1880750332117356_8927106348851331370_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGnCgno9zwfN36-24JQz5qmqNdRKLcaGvKo11Eotxoa8uKA4dmhagZCCYdjJku2ihS80-ffj7YSXU0Xxd3strsO&_nc_ohc=U7nN8DdSaNYAX8G6rH2&_nc_ht=scontent.fmty1-1.fna&oh=00_AT9ctbOvVabq_uSwX5i-7K_R9PLvABi8c1aUi8qW4rUu-g&oe=62B7A5D5"
+                      src={gallery3}
                       alt="Third slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273406598_1880750322117357_8820616124001476361_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGmol8y5pt1JTWL5qDfOTMSJGJ0FoQ3ii4kYnQWhDeKLt-KpCUx455_gaDxyozKjCHEouslrpKhhosJ7F9BO8NF&_nc_ohc=8w4vMOGrEWIAX8FtahN&_nc_ht=scontent.fmty1-1.fna&oh=00_AT-O1x5G6mn0YRFfnhEtrmVHZZMLLTqx-08Gsa-FkNo0OA&oe=62B80FBD"
+                      src={gallery4}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273515391_1880750275450695_5470847458141127482_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeG_Vbo9Ess3LEfnJX2e2mrsBLSf3Cm63REEtJ_cKbrdERiy1RUwN3nb2sJEul-vu2DcloVEk223jVBaMunsUrlE&_nc_ohc=IDpyFoxY1xgAX8IKaf7&_nc_ht=scontent.fmty1-1.fna&oh=00_AT_U9ewuiK9IIO92QI76wAstFQnY5ACfVwywtPpJqB17fg&oe=62B65763"
+                      src={gallery5}
                       alt="Second slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273532175_1880750302117359_8077315646411381423_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHEjNmURczKI0-aGFNbLKoahKmlHmz5fWOEqaUebPl9YzxWjl-FnRUnZru3VvLTZS1synD6aYStwvtFRYnB0-7P&_nc_ohc=v8st972Ak-oAX_7weIu&_nc_ht=scontent.fmty1-1.fna&oh=00_AT-8LUbkX5hlFmIsRgnvQ4UBqr5dZNtyjcglW0PRWq7oCw&oe=62B6A9C2"
+                      src={gallery6}
                       alt="Third slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273406598_1880750322117357_8820616124001476361_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGmol8y5pt1JTWL5qDfOTMSJGJ0FoQ3ii4kYnQWhDeKLt-KpCUx455_gaDxyozKjCHEouslrpKhhosJ7F9BO8NF&_nc_ohc=8w4vMOGrEWIAX8FtahN&_nc_ht=scontent.fmty1-1.fna&oh=00_AT-O1x5G6mn0YRFfnhEtrmVHZZMLLTqx-08Gsa-FkNo0OA&oe=62B80FBD"
+                      src={gallery7}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273386363_1880750318784024_5594206205033691181_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHv3QXINGvZUt5CpvuXTL6e6B-BNRFTNIHoH4E1EVM0gRMfB5RdpCjx99MRzwCVWV-2w71fgAt_33ik3Zwvk9rh&_nc_ohc=18gTFzgPRCIAX8LJKcg&_nc_ht=scontent.fmty1-1.fna&oh=00_AT_qXZeZCjzZKIobvhR3Rb33U4wnlfz1sWhMehXVGIrNXA&oe=62B7BF0F"
+                      src={gallery8}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/273442245_1880750292117360_657499255426323709_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEB1H45rrSvg9ELb1tzfkXhP3Bkkzb-SBU_cGSTNv5IFbu0XIgaLgoLIUKFpsZ8EIf92GdJiyflBBOfEk_rzQZ8&_nc_ohc=I1M22oK5DEEAX8IvA_8&_nc_ht=scontent.fmty1-1.fna&oh=00_AT9tLZGDmrc9r2FT6pwDGC6U4xJXaKr6YTjjNGGWwX2bBg&oe=62B7F841"
+                      src={gallery9}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/267168349_1842400662618990_8217903597278941663_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeFUgtZpF1zqDwgal_b1VT7c2QRrHUHyGW7ZBGsdQfIZbqNh3dQ1X6-YyRIL1iWxDqlNabm1pp98qHN0KVoflY1k&_nc_ohc=TBdX7wg2-DkAX-_gVLm&_nc_ht=scontent.fmty1-1.fna&oh=00_AT82XYH4wJTaTLcFEuQW80YRU8ZAjkqcty5qcUGdgz8Qsg&oe=62B711BB"
+                      src={gallery10}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/268484438_1842400682618988_6514794360323531125_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeGe6F9lPor0V3RciQzQcGEuHFodmzrykxYcWh2bOvKTFreAyk6HokvKitDe9s_nrjLtHH-hkruxOaFJQy1YCPhN&_nc_ohc=hUtzAXkwdfkAX-GrbuS&_nc_ht=scontent.fmty1-1.fna&oh=00_AT9NumjC34iLVkhC8ku30nb_O8YNrqhpbIxFcR30OU8x2A&oe=62B67765"
+                      src={gallery11}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/267577439_1842400679285655_1579818067268751029_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeEV_tw5Ns29CzsiKF6jybYnLYtt52Jyb48ti23nYnJvjyqJjqGTI6e68KjcexXFxerTI1zjKUVjGy4Ay97b5UBG&_nc_ohc=sV8IhfH5868AX-_n9oE&_nc_ht=scontent.fmty1-1.fna&oh=00_AT-sAeOjDtjFDqAEcwzolCVI2viK-UvCuuvIh-Gv11P-nQ&oe=62B66465"
+                      src={gallery12}
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       className="d-block w-100"
-                      src="https://scontent.fmty1-1.fna.fbcdn.net/v/t39.30808-6/267962213_1842400672618989_1780328851358396455_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeGrNUuZpzarkaDzqAz1pMhVE8BVLAfzHroTwFUsB_MeumaNKhVfRqGHHo4gmaV7LmgMTJGOkrUJawT3gsO85a26&_nc_ohc=d23wXDOKX1EAX8O69mW&_nc_ht=scontent.fmty1-1.fna&oh=00_AT8Ee5sx4YwHUYSWMTx8i3HQRMT3EgcNJeGp-QS3XJ_0yQ&oe=62B73D1F"
+                      src={gallery13}
                       alt="First slide"
                     />
                   </div>

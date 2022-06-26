@@ -8,3 +8,17 @@ export {default as blog5} from './blog5.jpeg';
 export {default as facebook} from './facebook.png';
 export {default as instagram} from './insta.png';
 export {default as tiktok} from './tiktok.png';
+export {default as gallery1} from './gallery1.jpg';
+export {default as gallery2} from './gallery2.jpg';
+export {default as gallery3} from './gallery3.jpg';
+export {default as gallery4} from './gallery4.jpg';
+export {default as gallery5} from './gallery5.jpg';
+export {default as gallery6} from './gallery6.jpg';
+export {default as gallery7} from './gallery7.jpg';
+export {default as gallery8} from './gallery8.jpg';
+export {default as gallery9} from './gallery9.jpg';
+export {default as gallery10} from './gallery10.jpg';
+export {default as gallery11} from './gallery11.jpg';
+export {default as gallery12} from './gallery12.jpg';
+export {default as gallery13} from './gallery13.jpg';
+
