@@ -51,8 +51,9 @@ const Home = () => {
             href="https://api.whatsapp.com/message/LNRP3UDQDY5QC1?autoload=1&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover-landing"
           >
-            Contactame <i className="fa-solid fa-arrow-right"></i>
+            Contactame  <i className="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </div>

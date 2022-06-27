@@ -64,16 +64,6 @@
   color: white;
 }
 
-.landing-description a:hover {
-  background-color: white;
-  color: black ;
-  transition: 0.2s;
-}
-
-.landing-description:hover i {
-  color: black;
-  transition: 0.2s;
-}
 
 
 
@@ -86,6 +76,22 @@
   text-align: center;
 
 }
+
+
+
+
+.hover-landing:hover {
+  background-color: white;
+  color: black ;
+  transition: 0.2s;
+
+}
+
+.hover-landing:hover  i{
+  color: black;
+  transition: 0.2s;
+}
+
 
 .social-media-container {
   display: flex;
