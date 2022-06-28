@@ -389,7 +389,7 @@ const Home = () => {
         <div className="cards-container">
           <div className="card">
             <div className="img-container">
-              <img src={blog3} alt="" />
+              <video controls src={blog3}></video>
             </div>
             <div className="description-card">
               <h4>Food</h4>
@@ -409,7 +409,7 @@ const Home = () => {
 
           <div className="card">
             <div className="img-container">
-              <img src={blog2} alt="" />
+           <video controls src={blog2}></video>
             </div>
             <div className="description-card">
               <h4>Travels</h4>
@@ -429,7 +429,7 @@ const Home = () => {
           </div>
           <div className="card">
             <div className="img-container">
-              <img src={blog5} alt="" />
+              <video controls src={blog5}></video>
             </div>
             <div className="description-card">
               <h4>Travels</h4>
