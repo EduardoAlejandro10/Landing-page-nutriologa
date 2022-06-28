@@ -48,7 +48,7 @@ const Home = () => {
           </h1>
           <p> Licenciada En Nutriologia</p>
           <a
-            href="https://api.whatsapp.com/message/LNRP3UDQDY5QC1?autoload=1&app_absent=0"
+            href="https://api.whatsapp.com/message/LNRP3UDQDY5QC1?"
             target="_blank"
             rel="noopener noreferrer"
             className="hover-landing"
