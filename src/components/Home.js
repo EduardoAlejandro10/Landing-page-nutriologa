@@ -107,47 +107,6 @@ const Home = () => {
                 triglicéridos, ácido úrico, salud hormonal, mejora de hábitos,
                 entre otros. Siempre a tu paso y de forma personalizada.
               </p>
-              <div className="checked-abilities-card">
-                <div className="p-about-container">
-                 
-                  <p>
-                    {" "}
-                    <span>
-                      <i className="fa-solid fa-check"></i>
-                    </span>{" "}
-                    Evaluacion de composicion corporal{" "}
-                  </p>
-                  <p>
-                    {" "}
-                    <span>
-                      <i className="fa-solid fa-check"></i>
-                    </span>{" "}
-                    Plan de alimentacion
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    {" "}
-                    <span>
-                      <i className="fa-solid fa-check"></i>{" "}
-                    </span>{" "}
-                    orientacion en Suplementacion
-                  </p>
-                  <p>
-                    <span>
-                      <i className="fa-solid fa-check"></i>
-                    </span>{" "}
-                    Orientacion en entrenamiento{" "}
-                  </p>
-                  <p className="p-position">
-                    {" "}
-                    <span>
-                      <i className="fa-solid fa-check"></i>{" "}
-                    </span>
-                    Lista de equivalentes y Guia de Restaurantes
-                  </p>
-                </div>
-              </div>
             </div>
           </section>
         </>
