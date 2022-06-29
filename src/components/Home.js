@@ -112,8 +112,8 @@ const Home = () => {
         </>
       ) : (
         <>
-          <section className="about-location-container">
-            <div id="about-me" className="img-carousel-container">
+          <section id="about-me" className="about-location-container">
+            <div  className="img-carousel-container">
               <div
                 id="carouselExampleIndicators"
                 className="carousel slide"
