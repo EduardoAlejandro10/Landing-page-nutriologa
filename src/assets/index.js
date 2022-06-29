@@ -1,7 +1,6 @@
 export {default as logo} from './logo.png';
 export {default as docPhoto} from './docPhoto.png';
 export {default as docAbout} from './docAbout.png';
-export {default as certifications} from './certificaciones.png';
 export {default as blog3} from './blog3.mp4';
 export {default as blog2} from './blog2.mp4';
 export {default as blog5} from './blog5.mp4';
@@ -21,4 +20,4 @@ export {default as gallery10} from './gallery10.jpg';
 export {default as gallery11} from './gallery11.jpg';
 export {default as gallery12} from './gallery12.jpg';
 export {default as gallery13} from './gallery13.jpg';
-
+export {default as icon} from './icon.png';

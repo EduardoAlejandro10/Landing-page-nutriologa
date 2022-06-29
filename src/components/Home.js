@@ -24,6 +24,7 @@ import {
   gallery11,
   gallery12,
   gallery13,
+  
 } from "../assets/index";
 import { useState } from "react";
 
@@ -44,11 +45,11 @@ const Home = () => {
         <div className="landing-description">
           <h1>
             {" "}
-            Hola, Soy <br /> Brenda Cherety
+            Hola, Soy <br /> La Nutriologa Cherety
           </h1>
-          <p> Licenciada En Nutriologia</p>
+          <p> Lic. en Salud Publica y En Nutriologia</p>
           <a
-            href="https://api.whatsapp.com/message/LNRP3UDQDY5QC1?"
+            href="https://wa.me/message/LNRP3UDQDY5QC1"
             className="hover-landing"
           >
             Contactame  <i className="fa-solid fa-arrow-right"></i>
@@ -99,8 +100,8 @@ const Home = () => {
                 +5 Años <br /> De Experiencia En Salud
               </h2>
               <p className="about-p">
-                Soy Brenda Cherety Lic. En Nutrición y me dedico a acompañarte
-                mientras cumples tus objetivos físicos y/o de salud Algunos de
+              Soy Brenda Cherety, soy Nutrióloga y me dedico a acompañarte
+                mientras cumples tus objetivos físicos y/o de salud.  Algunos de
                 ellos son pérdida de grasa, aumento de masa muscular, control de
                 diabetes, hipertensión, control de niveles de colesterol,
                 triglicéridos, ácido úrico, salud hormonal, mejora de hábitos,
@@ -108,15 +109,7 @@ const Home = () => {
               </p>
               <div className="checked-abilities-card">
                 <div className="p-about-container">
-                  <p >
-                    {" "}
-                    <span>
-                      {" "}
-                      <i className="fa-solid fa-check"></i>
-                    </span>{" "}
-                    Interpretacion de estudios de <br />
-                    laboratorio
-                  </p>
+                 
                   <p>
                     {" "}
                     <span>
@@ -146,7 +139,7 @@ const Home = () => {
                     </span>{" "}
                     Orientacion en entrenamiento{" "}
                   </p>
-                  <p>
+                  <p className="p-position">
                     {" "}
                     <span>
                       <i className="fa-solid fa-check"></i>{" "}
@@ -321,59 +314,61 @@ const Home = () => {
           </section>
         </>
       )}
-      <section className="services">
+      <section>
+      <div className="services">
         <div className="title">
           <div className="vector-container-services">
             <i className="fa-regular fa-window-minimize"></i>
             <span>Servicios</span>
             <i className="fa-regular fa-window-minimize"></i>
           </div>
-          <h2>Que Incluye Tu Consulta?</h2>
+          <h2>La Consulta es Para Ti Si</h2>
         </div>
         <div className="boxes-container">
           <div className="box carrot">
-            <i className="fa-solid fa-carrot"></i>
-            <h3>Plan de alimentación personalizado </h3>
-            <p>
-              plan personalizado a tu objetivo y gustos hasta donde es posible
-            </p>
+          <i className="fa-solid fa-weight-scale"></i>
+            <h3>Buscas perder grasa </h3>
+              <p>si tu objetivo es perder grasa</p>
           </div>
           <div className="box heart">
-            <i className="fa-solid fa-heart"></i>
-            <h3>Evaluacion De Composicion Corporal</h3>
-            <p>
-              Porcentaje de grasa total, grasa visceral, masa ósea y edad
-              metabólica
-            </p>
+          <i className="fa-solid fa-dumbbell"></i>
+            <h3>Buscas aumentar masa muscular</h3>
+              <p> si tu objetivo es aumentar masa muscular</p>
           </div>
 
           <div className="box excercise">
-            <i  className="fa-solid fa-person-walking person"></i>
-            <h3>Orientacion en entrenamiento</h3>
-            <p>
-              ejercicios recomendados a tus posibilidades y orientacion a como
-              ejecutarlos correctamente{" "}
-            </p>
+          <i className="fa-solid fa-syringe"></i>
+            <h3>Si Padeces SOP/ Resistencia a la insulina</h3>
+                <p>si padeces de una de estas condiciones</p>
           </div>
 
           <div className="box weight">
-            <i className="fa-solid fa-dumbbell"></i>
-            <h3>Orientacion en suplementacion</h3>
-            <p>solamente lo que es considerado benéfico y sin riesgos</p>
+          <i className="fa-solid fa-face-frown"></i>
+            <h3>Padeces de estreñimiento, colitis, gastritis o reflujo</h3> 
+           <p>si padeces de una de estas condiciones </p>
           </div>
           <div className="box whats">
-            <i className="fa-brands fa-whatsapp"></i>
-            <h3>Comunicaciones via Whatsapp</h3>
-            <p> para resolver las dudas que se te presenten</p>
+          <i className="fa-solid fa-hand-holding-heart"></i>
+            <h3>Necesitas controlar tu diabetes </h3>
+            <p>si necesitas controlar tu diabetes</p>
+           
           </div>
           <div className="box food">
-            <i className="fa-solid fa-utensils"></i>
-            <h3> lista de alimentos equivalentes y guía de restaurantes</h3>
-            <p>
-              lista de alimentos quivalentes y guia de restaurantes en cadereyta
-            </p>
+          <i className="fa-solid fa-heart"></i>
+            <h3> Padeces hipertensión Colesterol u otros parámetros elevados  </h3>
+                  <p>si padeces de una de estas condiciones</p>
           </div>
+         
         </div>
+        <div className="services-contact-button">
+          <a href="https://wa.me/message/LNRP3UDQDY5QC1">
+                  <p className="second-a-contact">
+                  Contactame  <i className="fa-solid fa-arrow-right"></i>
+                  </p>
+                  </a>
+          </div>
+      </div>
+ 
       </section>
       <section id="blog" className="blog">
         <div className="vector-container-blog">
@@ -410,7 +405,7 @@ const Home = () => {
            <video controls src={blog2}></video>
             </div>
             <div className="description-card">
-              <h4>Travels</h4>
+              <h4>Food</h4>
               <span>
                 {" "}
                 <i className="fa-solid fa-calendar-days"></i> may 22
@@ -430,7 +425,7 @@ const Home = () => {
               <video controls src={blog5}></video>
             </div>
             <div className="description-card">
-              <h4>Travels</h4>
+              <h4>Fit Life</h4>
               <span>
                 {" "}
                 <i className="fa-solid fa-calendar-days"></i> march 14
