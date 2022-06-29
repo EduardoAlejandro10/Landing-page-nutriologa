@@ -851,7 +851,7 @@ font-size: 14px;
 
 .landing-description {
   position: absolute;
-  margin-right: 190px;
+  margin-right: 150px;
   
 }
 
@@ -860,18 +860,18 @@ font-size: 14px;
 }
 
 .landing-description h1 {
-  font-size: 30px;
+  font-size: 25px;
   
 }
 
 
 .landing-description p {
-  font-size: 15px;
+  font-size: 13px;
   margin-left: 60px;
 }
 
 .landing-description a {
-  width: 150px;
+  width: 130px;
   margin-left: 70px;
 }
 
