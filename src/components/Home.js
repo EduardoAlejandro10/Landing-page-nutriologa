@@ -47,7 +47,7 @@ const Home = () => {
             {" "}
             Hola, Soy <br /> La Nutriologa Cherety
           </h1>
-          <p> Lic. en Salud Publica y En Nutriologia</p>
+          <p> Lic. en Salud Publica y En Nutricion</p>
           <a
             href="https://wa.me/message/LNRP3UDQDY5QC1"
             className="hover-landing"
@@ -286,36 +286,36 @@ const Home = () => {
         <div className="boxes-container">
           <div className="box carrot">
           <i className="fa-solid fa-weight-scale"></i>
-            <h3>Buscas perder grasa </h3>
-              <p>si tu objetivo es perder grasa</p>
+            <h3>Tienes un objetivo físico </h3>
+              <p>Buscas perder grasa corporal</p>
           </div>
           <div className="box heart">
           <i className="fa-solid fa-dumbbell"></i>
-            <h3>Buscas aumentar masa muscular</h3>
-              <p> si tu objetivo es aumentar masa muscular</p>
+            <h3>Tienes un objetivo físico</h3>
+              <p> Buscas aumentar masa muscular </p>
           </div>
 
           <div className="box excercise">
           <i className="fa-solid fa-syringe"></i>
-            <h3>Si Padeces SOP/ Resistencia a la insulina</h3>
-                <p>si padeces de una de estas condiciones</p>
+            <h3>Tienes un objetivo de salud </h3>
+                <p>Padeces SOP / Resistencia a la insulina</p>
           </div>
 
           <div className="box weight">
           <i className="fa-solid fa-face-frown"></i>
-            <h3>Padeces de estreñimiento, colitis, gastritis o reflujo</h3> 
-           <p>si padeces de una de estas condiciones </p>
+            <h3>Necesitas mejorar tu digestión </h3> 
+           <p>Padeces estreñimiento, colitis, gastritis o reflujo </p>
           </div>
           <div className="box whats">
           <i className="fa-solid fa-hand-holding-heart"></i>
-            <h3>Necesitas controlar tu diabetes </h3>
-            <p>si necesitas controlar tu diabetes</p>
+            <h3>Tienes un objetivo de salud </h3>
+            <p>Necesitas controlar tu diabetes</p>
            
           </div>
           <div className="box food">
           <i className="fa-solid fa-heart"></i>
-            <h3> Padeces hipertensión Colesterol u otros parámetros elevados  </h3>
-                  <p>si padeces de una de estas condiciones</p>
+            <h3> Tienes un objetivo de salud </h3>
+                  <p>Si tienes hipertensión, colesterol u otros parámetros elevados</p>
           </div>
          
         </div>
