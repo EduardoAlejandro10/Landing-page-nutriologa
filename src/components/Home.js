@@ -47,7 +47,7 @@ const Home = () => {
             {" "}
             Hola, Soy <br /> La Nutriologa Cherety
           </h1>
-          <p> Lic. en Salud Publica y En Nutricion</p>
+          <p> Lic. en Salud Publica y Nutricion</p>
           <a
             href="https://wa.me/message/LNRP3UDQDY5QC1"
             className="hover-landing"
