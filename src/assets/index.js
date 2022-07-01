@@ -21,3 +21,11 @@ export {default as gallery11} from './gallery11.jpg';
 export {default as gallery12} from './gallery12.jpg';
 export {default as gallery13} from './gallery13.jpg';
 export {default as icon} from './icon.png';
+export {default as success} from './success1.jpg';
+export {default as success2} from './success2.jpg';
+export {default as success3} from './success3.jpg';
+export {default as success4} from './success4.jpg';
+export {default as success5} from './success5.jpg';
+export {default as success6} from './success6.jpg';
+export {default as success7} from './success7.jpg';
+

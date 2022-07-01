@@ -24,12 +24,19 @@ import {
   gallery11,
   gallery12,
   gallery13,
+  success,
+  success2,
+ 
+  success5,
+  
+  success6,
   
 } from "../assets/index";
 import { useState } from "react";
 
 const Home = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toogle, setToggle] = useState(1);
+
 
   return (
     <div className="main-container">
@@ -81,11 +88,12 @@ const Home = () => {
         </a>
       </div>
       <div className="absolute-buttons-container">
-        <button onClick={() => setToggle(true)}>Sobre Mi</button>
-        <button onClick={() => setToggle(false)}>Vida Saludable</button>
+        <button onClick={() => setToggle(1)}>Sobre Mi</button>
+        <button onClick={() => setToggle(2)}>Vida Saludable</button>
+        <button onClick={() => setToggle(3)}>Casos de Exito</button>
       </div>
-      {toggle ? (
-        <>
+      {toogle === 1 &&  
+        
           <section className="about-location-container">
             <div id="about-me" className="img-about-container">
               <img src={docAbout} alt="" />
@@ -109,8 +117,8 @@ const Home = () => {
               </p>
             </div>
           </section>
-        </>
-      ) : (
+} 
+       { toogle === 2 && 
         <>
           <section id="about-me" className="about-location-container">
             <div  className="img-carousel-container">
@@ -272,7 +280,108 @@ const Home = () => {
             </div>
           </section>
         </>
-      )}
+       } { toogle === 3 && 
+       
+       <>
+           <section id="about-me" className="about-location-container">
+            <div  className="img-carousel-container">
+              <div
+                id="carouselExampleIndicators"
+                className="carousel slide"
+                data-ride="carousel"
+              >
+                <ol className="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="0"
+                    className="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="2"
+                  ></li>
+                </ol>
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      className="d-block w-100"
+                      src={success}
+                      alt="First slide"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      className="d-block w-100"
+                      src={success2}
+                      alt="Second slide"
+                    />
+                  </div>
+               
+                 
+                  <div className="carousel-item">
+                    <img
+                      className="d-block w-100"
+                      src={success5}
+                      alt="Second slide"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      className="d-block w-100"
+                      src={success6}
+                      alt="Third slide"
+                    />
+                  </div>
+                 
+                </div>
+                <a
+                  className="carousel-control-prev"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a
+                  className="carousel-control-next"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div className="about-description">
+              <div className="vector-container">
+                <i className="fa-regular fa-window-minimize"></i>
+                <span>Casos de Exito</span>
+              </div>
+
+              <h2>
+               Algunos Casos <br /> de Exito de mis pacientes
+              </h2>
+              <p className="about-p">
+              Algunos de los logros de mis pacientes. Siempre que buscamos un cambio físico lo buscamos de la mano de la salud.
+              </p>
+            </div>
+          </section>
+       
+       </>
+
+       }
       <section>
       <div className="services">
         <div className="title">
